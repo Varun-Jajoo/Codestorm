@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar{
+  height: 100px;
+  font-size: 120%;
+  
+}
+#nav{
+  margin-top: 20px;
+  margin-right: 700px;
+  font-size: 230%;
+  font-family: optima;
+}
+body{
+  /* background:linear-gradient(to left,rgb(230, 13, 13) ,rgb(121, 14, 14) 40% ,black 65%); */
+}
+.code{
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+  padding-bottom: 0;
+}
+
+
+span{
+  display: inline-block;
+  font-size: 10rem;
+  font-family: Titillium Web;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: white;
+  margin: 0;
+}
+.hi {
+  position: relative; /* add this to ensure "left" property works */
+  left :0;
+  top : 0;
+  animation-name: text;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards; /* use "forwards" to keep the final state after animation ends */
+}
+
+@keyframes text {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%
+}
+}
+span:hover{
+  color: red;
+
+}
+.type{
+  margin-top: 0%;
+  margin-left: 25%;
+}
+
+.para{
+margin-left: 6vh;
+margin-top: 8vh;
+color : white;
+opacity: 100%;
+}
+.about{
+  display: block;
+  align-items: center;
+  text-align: left;
+  color:red;
+  font-size: 4vh;
+  margin : 4vh ;
+  height: 80vh;
+  background-image: url("https://rare-gallery.com/uploads/posts/592135-1920x1080-chips.jpg");
+  background-size: cover;
+  margin: 0;
+  font-family: Titillium Web ;
+  font-size: 5vh;
+}
+#about{
+  font-size: 7vh;
+  font-weight: bold;
+  font-family: Titillium Web ;
+
+}
+.first{
+  height: 80vh;
+}
+.text{
+height: 40vh;
+font-size: 4vh;
+color: white;
+}
